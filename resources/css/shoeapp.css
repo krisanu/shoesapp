@@ -1,0 +1,66 @@
+/*b77a2bec05b53686d981c66394847458eb5422b9*//*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2014, 1:14:14 PM
+    Author     : CLB
+*/
+/*@font-face {font-family: BebasNeueBold; src: url(resources/fonts/BebasNeue_Bold.otf);}
+@font-face {font-family: BebasNeueThin; src: url(resources/fonts/BebasNeue_Thin.otf);}
+@font-face {font-family: FUTURAM; src: url(resources/fonts/FUTURAM.TTF);}*/
+.x-login-container{background-color: #1a90da;}
+.x-login-bkg {background-image: url('../images/splash.png');
+              background-position: center;
+              opacity: 0.1;
+              height: 100%;
+              position: absolute;
+              width: 100%;
+              margin: -1.2em;}
+.x-login-container .shoeapplogo {
+    /*position: absolute;*/
+    /*top: 25%;*/
+    text-align: center;
+    width: 100%;
+    background-image: url('../images/icon.png');
+    background-position: center;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;margin-top: 50px;}
+.x-login-container .shoeappname {font-family: BebasNeueBold;
+                                 font-size: 54px;
+                                 margin-bottom: 20px;color: white;text-align: center;}
+.x-login-container .shoeappname span {font-family: BebasNeueThin;}
+.x-login-container .x-form-fieldset-inner {background: transparent;border-radius: 0;border: none;}
+.x-login-container .email{margin-bottom: 25px; border: none;}
+.x-login-container .password{margin-bottom: 10px;border: none;}
+.x-login-container .x-form-label {background-color: transparent;border: none;padding: 0;opacity: 1;background-repeat: no-repeat;background-size: contain;text-indent: -999999px;margin: 5px 0;}
+.x-login-container .x-field-input {border: 1px solid white;}
+.x-login-container .email .x-form-label{background-image: url('../images/user.png');}
+.x-login-container .password .x-form-label{background-image: url('../images/password.png');}
+.x-login-container .shoesize .x-form-label{background-image: url('../images/shoesize.png');}
+.shoesize.x-field-select .x-component-outer:before{background-image:none;}
+
+.x-login-container .email input{background: transparent;color: white; font-family: Myriad Pro;}
+.x-login-container .password input{background: transparent;color: white; font-family: Myriad Pro;}
+.x-login-container .shoesize input{background: transparent;color: white; font-family: Myriad Pro;}
+.x-login-container .email  input::-webkit-input-placeholder {color: white;}
+.x-login-container .password  input::-webkit-input-placeholder {color: white;}
+.x-login-container .shoesize  input::-webkit-input-placeholder {color: white;}
+.x-login-container .shoesize .x-form-field {
+    -webkit-text-fill-color: white;
+}
+
+.x-login-container .forgotpassword{text-align: right;
+color: white;
+font-family: Myriad Pro;
+font-size: 0.8em;
+text-decoration: underline;}
+
+.x-login-container .loginbtn{font-family: BebasNeue_Regular;background: transparent;
+border: none;
+color: white;
+font-size: 3em;
+text-decoration: underline;
+letter-spacing: 3px;}
