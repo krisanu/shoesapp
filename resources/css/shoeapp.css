@@ -1,0 +1,217 @@
+/*9d3df63f6d3aef7331853b7dfbc0f6d5d1692e36*//*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2014, 1:14:14 PM
+    Author     : CLB
+*/
+/*@font-face {font-family: BebasNeueBold; src: url(resources/fonts/BebasNeue_Bold.otf);}
+@font-face {font-family: BebasNeueThin; src: url(resources/fonts/BebasNeue_Thin.otf);}
+@font-face {font-family: FUTURAM; src: url(resources/fonts/FUTURAM.TTF);}*/
+
+/* Login Screen */
+
+.x-login-container{background-color: #1a90da;}
+.x-login-bkg {background-image: url('../images/splash.png'); background-position: center; opacity: 0.1; height: 100%;position: absolute;width: 100%;margin: -1.2em;}
+.x-login-container .shoeapplogo {text-align: center;width: 100%;background-image: url('../images/icon.png');background-position: center;height: 100px;background-repeat: no-repeat;background-size: contain;margin-top: 5%;}
+.x-login-container .shoeappname {font-family: BebasNeueBold;font-size: 54px;margin-bottom: 20px;color: white;text-align: center;}
+.x-login-container .shoeappname span {font-family: BebasNeueThin;}
+.x-login-container .x-form-fieldset-inner {background: transparent;border-radius: 0;border: none;}
+.x-login-container .email{margin-bottom: 25px; border: none;}
+.x-login-container .password{margin-bottom: 10px;border: none;}
+.x-login-container .x-form-label {background-color: transparent;border: none;padding: 0;opacity: 1;background-repeat: no-repeat;background-size: contain;text-indent: -999999px;margin: 5px 0;}
+.x-login-container .x-field-input {border: 1px solid white;}
+.x-login-container .email .x-form-label{background-image: url('../images/user.png');}
+.x-login-container .password .x-form-label{background-image: url('../images/password.png');}
+.x-login-container .shoesize .x-form-label{background-image: url('../images/shoesize.png');}
+.shoesize.x-field-select .x-component-outer:before{background-image:none;}
+
+.x-login-container .email input{background: transparent;color: white; font-family: Myriad Pro;-webkit-text-fill-color: #fff;}
+.x-login-container .password input{background: transparent;color: white; font-family: Myriad Pro;-webkit-text-fill-color: #fff;}
+.x-login-container .shoesize input{background: transparent;color: white; font-family: Myriad Pro;-webkit-text-fill-color: #fff;}
+.x-login-container .email  input::-webkit-input-placeholder {color: white;-webkit-text-fill-color: white;}
+.x-login-container .password  input::-webkit-input-placeholder {color: white;-webkit-text-fill-color: white;}
+.x-login-container .shoesize  input::-webkit-input-placeholder {color: white;}
+.x-login-container .shoesize .x-form-field {-webkit-text-fill-color: white;}
+
+.x-login-container .forgotpassword{text-align: right;color: white;font-family: Myriad Pro;font-size: 0.8em;text-decoration: underline;}
+
+.x-login-container .loginbtn{font-family: BebasNeue_Regular;background: transparent;border: none;color: white;font-size: 3em;text-decoration: underline;letter-spacing: 3px;}
+
+
+/* Shoe Titlebar */
+
+.x-shoes-titlebar.x-toolbar-dark.x-docked-top{background: #1d93dd;border-bottom-color: #1d93dd;}
+.x-shoes-titlebar .x-button-normal {min-height: 1.2em;background-position: center;background-repeat: no-repeat;background-size: contain;background-color: transparent;border: none;}
+.x-shoes-titlebar .x-back-btn {background-image: url('../images/menu-back.png');}
+.x-shoes-titlebar .x-cart-btn {background-image: url('../images/menu-cart.png');}
+.x-shoes-titlebar .x-user-btn {background-image: url('../images/menu-user.png');}
+.x-shoes-titlebar .x-field-search .x-component-outer {background: #0e7cc1;box-shadow: none;}
+.x-shoes-titlebar .x-field-search .x-form-field {-webkit-text-fill-color: white; font-size: 0.6em; opacity: 0.8; margin-right: 0.3em; margin-right: 1.3em; height: 2em;line-height: 1em;}
+/*.x-shoes-titlebar .x-field-search .x-field-input {min-height: 1.2em;}*/
+.x-shoes-titlebar .x-field-search .x-field-input:before {color: white;top: .3em;right: .5em;font-size: 0.7em;left: auto;opacity: 0.8;}
+
+
+/* Shoe Category Screen */
+
+.x-shoecategory-container{background: white;}
+.x-cat-panel {padding: 1em 0 0;}
+.x-cat-panel .x-cat-panel-inner {text-align: center;}
+.x-location-btn, .x-event-btn {height: 2.5em; background-position: center;background-repeat: no-repeat;background-size: contain;background-color: transparent;border: none;}
+.x-location-btn {background-image: url('../images/location.png');}
+.x-event-btn {background-image: url('../images/calendar.png');}
+.cat-select-text {color: #565656; font-family: BebasNeueBold; font-size: 0.8em; letter-spacing: 0.2em;}
+.cat-text {color: #1a90da; font-family:BebasNeueBold; font-size: 1.6em;}
+
+.x-shoe-cat-wrapper {margin-top: 10px;}
+.x-shoe-cat-wrapper .x-shoe-cat{background: #474747; margin-bottom: 0.5em; background-position: top;background-repeat: no-repeat;background-size: cover;color: white; font-family:BebasNeue_Regular; font-size: 1.6em; text-align: center; height: 4em;}
+.x-shoe-cat-wrapper .x-shoe-cat:last-child {margin-bottom: 0;}
+.x-shoe-cat-wrapper .x-shoe-cat.x-shoe-cat-ladies{background-image: url('../images/shoe-cat-ladies.png');line-height: 4em;}
+.x-shoe-cat-wrapper .x-shoe-cat.x-shoe-cat-men{background-image: url('../images/shoe-cat-men.png');background-position: center;line-height: 4em;}
+.x-shoe-cat-wrapper .x-shoe-cat.x-shoe-cat-child{background-image: url('../images/shoe-cat-child.png');background-position: bottom;}
+.x-shoe-cat-wrapper .x-shoe-cat.x-shoe-cat-child .x-shoe-cat-child-fline {padding: 4% 25%;font-size: 0.6em;letter-spacing: .1em; }
+.x-shoe-cat-wrapper .x-shoe-cat.x-shoe-cat-child .x-shoe-cat-child-lline {text-decoration: underline;}
+.x-shoe-cat > .x-panel-inner {background-image: url('../images/main-cat-arrow.png');background-repeat: no-repeat;background-position: 95% center;background-size: 5%;}
+
+
+/* Shoe Category Screen */
+
+.x-ladiesshoecategory-container, .x-menshoecategory-container, .x-childshoecategory-container {background: white;}
+
+.x-shoecategory-list-wrapper {padding: 0.5em;}
+.x-shoecategory-list { background-image: url('../images/list-texture.png'); border-radius: 0.3em;  font-family: Myriad Pro; font-size: 0.8em;}
+.x-shoecategory-list > .x-list-inner {background-size: contain;}
+.x-shoecategory-list.x-list .x-list-item {color: white;}
+.x-shoecategory-list.x-list .x-list-item.x-list-item-tpl .x-innerhtml {padding: 14px 15px;}
+.x-shoecategory-list.x-list .x-list-item.x-item-selected.x-list-item-tpl {background-image: none;background: #1a90da;}
+.x-shoecategory-list .submenu-link {background-image: url('../images/submenu-link.png');width: 0.8em;height: 0.8em;position: absolute;right: 10px;top: 18px;background-size: contain;background-repeat: no-repeat;}
+
+.x-ladiesshoecategory-container .x-shoecategory-list > .x-list-inner {background-image: url('../images/ladies-shoe-bkg.png');}
+.x-menshoecategory-container .x-shoecategory-list > .x-list-inner {background-image: url('../images/men-shoe-bkg.png');}
+.x-childshoecategory-container .x-shoecategory-list > .x-list-inner {background-image: url('../images/child-shoe-bkg.png');}
+
+
+/* Shoe Offer Screen */
+
+.x-offer-container .x-offer-list {background: white;}
+.x-offer-list-wrapper {padding: 0.5em;}
+.x-offer-list-wrapper .x-list-item {border: 1px solid #76bce9; margin-bottom: 0.5em;}
+.x-offer-list-wrapper .x-list-normal .x-list-item.x-list-item-tpl {border-top: 1px solid #76bce9; }
+.x-offer-list-wrapper .x-list .x-list-item.x-list-item-tpl .x-innerhtml {padding: 0.5em;}
+.x-offer-list-wrapper .clear {clear: both;}
+.x-offer-list-wrapper .img-container {float: left; width: 30%;}
+.x-offer-list-wrapper .img-container img {width: 100%;}
+
+.x-offer-list-wrapper .offer-detail {float: right; width: 69%; padding: 0 0 0 0.5em;}
+
+.x-offer-list-wrapper .offer-brief {font-family: MyriadPro-Semibold;font-size: 0.7em;color: #4b4b4b;font-weight: 400; letter-spacing: 0.04em;}
+
+.x-offer-list-wrapper .offer-info {font-family: Myriad Pro; color: #1a90da; font-size: 0.6em;}
+.x-offer-list-wrapper .offer-info .user-rating {background-image: url('../images/rating.png'); margin-top: 0.5em; background-repeat: no-repeat; padding-left: 15px; font-family: Myriad Pro; color: #1a90da;}
+.x-offer-list-wrapper .offer-info .user-rating img {vertical-align: middle; margin-left: 10px;}
+.x-offer-list-wrapper .offer-info .user-distance {background-image: url('../images/location-small.png'); margin-top: 0.5em; background-repeat: no-repeat; padding-left: 15px; font-family: Myriad Pro; color: #1a90da; margin-right: 5px; display: inline-block;}
+.x-offer-list-wrapper .offer-info .time-left{background-image: url('../images/time.png'); margin-top: 0.5em; background-repeat: no-repeat; padding-left: 15px; display: inline-block;}
+
+.x-offer-list-wrapper .offer-pricing {display: table; font-family: MyriadPro-Semibold; width: 100%; text-align: center; margin-top: 10px;}
+.x-offer-list-wrapper .offer-pricing .offer-pricing-row {display: table-row;}
+.x-offer-list-wrapper .offer-pricing .offer-pricing-col {display: table-cell; width: 33.3333%}
+
+
+.x-offer-list-wrapper .offer-pricing .regular-price, .x-offer-list-wrapper .offer-pricing .regular-price-text {color: #949494;}
+.x-offer-list-wrapper .offer-pricing .sale-price, .x-offer-list-wrapper .offer-pricing .sale-price-text {color: #73c916;}
+.x-offer-list-wrapper .offer-pricing .discount-text {color: #1a90da;}
+
+.x-offer-list-wrapper .offer-pricing .regular-price, .x-offer-list-wrapper .offer-pricing .sale-price {font-size: 1.2em; width: 30%}
+.x-offer-list-wrapper .offer-pricing .discount {font-size: 1em; color: #ffffff; background-image: url('../images/discount-bkg.png'); /*background-size: cover; background-position-x: 50%; width: 40%;*/background-size: contain;background-position-y: 50%;width: 40%;background-repeat: no-repeat;}
+.x-offer-list-wrapper .offer-pricing .regular-price-text, .x-offer-list-wrapper .offer-pricing .sale-price-text, .x-offer-list-wrapper .offer-pricing .discount-text {font-size: 0.5em; letter-spacing: 0.04em; padding-top: 5px;}
+.x-offer-list-wrapper .soldout {background-image: url('../images/ribbon.png');font-family: MyriadPro-Semibold;color: #ffffff;display: inline-block;font-size: 0.4em;letter-spacing: 0.3em;text-align: center;background-size: cover;background-repeat: no-repeat;padding: 5px;height: 40px;position: absolute;left: -1px;top: -2px;}
+.x-offer-list-wrapper .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-offer-list-wrapper .x-list .x-list-item.x-item-selected.x-list-item-tpl {background-image: none;background-color: #E4E4E4;}
+
+
+
+/* Shoe Offer Details Screen */
+
+.x-offerdetails-container .x-offerdetails-wrapper {padding: 0.5em; background: white;}
+.x-offerdetails-container .x-offerdetails-wrapper .x-offer-heading {font-family: MyriadPro-Semibold; color: #4b4b4b; font-size: 0.8em; text-align: center; padding: 10px;}
+.x-offerdetails-container .x-offerdetails-wrapper .big-image-wrapper {margin-bottom: 5px;}
+.x-offerdetails-container .x-offerdetails-wrapper .big-image img {width: 100%;}
+.x-offerdetails-container .x-offerdetails-wrapper .right-arrow {position: absolute;right: 5px;top: 40%;}
+.x-offerdetails-container .x-offerdetails-wrapper .left-arrow {position: absolute;left: 5px;top: 40%;}
+.x-offerdetails-container .x-offerdetails-wrapper .right-arrow img, .x-offerdetails-container .x-offerdetails-wrapper .left-arrow img {height: 2em;}
+.x-offerdetails-container .x-offer-images {height: 3em; white-space: nowrap !important;}
+.x-offerdetails-container .x-offer-images img {height: 5em; width: 5em; margin-right: 10px;}
+.x-offerdetails-container .x-offer-info-wrapper{ width: 100%; padding-top: 0.5em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-left {width: 50%;display: inline-block; text-align: left;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-right {width: 50%;display: inline-block; text-align: right; vertical-align: top;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-sizes-text, .x-offer-info-wrapper .x-offer-info-colors-text {font-family: MyriadPro-Semibold; font-size: 0.8em; color: #1a90da; margin-bottom: 0.5em;}
+
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-left .x-offer-info-sizes-options {height: 2.5em; white-space: nowrap !important; font-family: MyriadPro-Semibold; font-size: 0.6em; color: #5c5c5c;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-left .x-offer-info-sizes-options .shoesizebox {padding: 0.5em;margin-right: 0.5em;border: 1px solid;height: 2em;width: 2em;text-align: center; border-radius: 0.2em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-left .x-offer-info-sizes-options .shoesizebox.available {color: white; background-color: #1a90da; border-color: #1a90da;}
+
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-right .x-offer-info-colors-options {height: 2.5em; white-space: nowrap !important;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-right .x-offer-info-colors-options .shoecolorbox {margin-right: 0.2em;height: 1.2em;width: 1.2em; }
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-right .x-offer-info-colors-options .x-dataview-item:last-child .shoecolorbox {margin-right: 0;}
+
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-left .x-offer-info-timeleft {font-family: Myriad Pro;color: #1a90da;font-size: 0.8em;margin: 1.5em 0 0 0;background-image: url('../images/time-offer-detail.png');background-repeat: no-repeat;line-height: 0.9em;padding-left: 1.5em;background-size: contain;background-position: 0px 0px;letter-spacing: 0.02em;}
+
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-quantity {font-family: MyriadPro-Semibold; font-size: 0.8em; color: #1a90da; margin-bottom: 1.5em; margin-top: 1.5em; min-height: 13px; height: 2em;}
+/*.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-quantity .x-offer-info-quantity-button {display: none;}*/
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-quantity .x-form-label {font-family: MyriadPro-Semibold;color: #1a90da;background-color: transparent;background-image: url('../images/grid.png');background-repeat: no-repeat;background-size: 13px;padding: 0 0 0 23px;border-bottom-left-radius: 0;line-height: 2.3em;background-position: center left;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-quantity .x-form-label span {font-size: 1em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-quantity .x-field-input {padding: 0em; border: 1px solid; height: 2em; width: 2em; text-align: center; border-radius: 0.2em; min-width: 2em;min-height: 2em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-quantity .x-field-input input {min-height: 100%; text-align: center; padding: 0; color: #1a90da; -webkit-text-fill-color: #1a90da; line-height: 1.9em;}
+
+.x-offerdetails-container .x-offer-info-wrapper .x-addtocart-btn {font-family: BebasNeueBold;}
+.x-offerdetails-container .x-offer-info-wrapper .x-addtocart-btn .addto {color: #5c5c5c;font-size: 1.5em;letter-spacing: 0.07em;line-height: 1em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-addtocart-btn .cart {color: #1a90da;font-size: 2.2em;line-height: 1em;letter-spacing: 0.05em;}
+
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price {font-family: MyriadPro-Semibold;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .sections {display: inline-block; text-align: center;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .x-offer-regular-price, .x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .x-offer-sale-price {width: 30%;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .x-offer-discount, .x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .x-offer-tax-price {width: 20%;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .sections .text {font-size: 0.6em; letter-spacing: 0.03em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .sections .price {font-size: 1.2em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .x-offer-regular-price {color: #949494;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .x-offer-discount {color: #1a90da;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .x-offer-sale-price {color: #73c916;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-price .x-offer-tax-price {color: #ef4123;}
+
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-total-price {margin-top: 2em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-total-price .x-offer-total-price-text {font-family: BebasNeueBold; display: inline-block; width: 70%;font-size: 2.2em;letter-spacing: 0.02em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-total-price .x-offer-total-price-amount {font-family: MyriadPro-Semibold; display: inline-block; width: 30%; line-height: 2.2em; vertical-align: top; background-color: #1a90da; border-radius: 0.2em; color: white; text-align: center; padding: 0.3em 0;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-total-price .x-offer-total-price-text .total, .x-offerdetails-container .x-offer-info-wrapper .x-offer-info-total-price .x-offer-total-price-text .amount {display: inline-block;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-total-price .x-offer-total-price-text .total {color: #5a5a5a; margin-right: 0.3em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-total-price .x-offer-total-price-text .amount {color: #1a90da;}
+
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-description {margin: 2em 0 1em; font-size: 0.8em; letter-spacing: 0.06em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-description .x-offer-description-heading {color: #1a90da; font-family: MyriadPro-Semibold; margin-bottom: 1em;}
+.x-offerdetails-container .x-offer-info-wrapper .x-offer-info-description .x-offer-description-text {color: #5a5a5a; font-family: Myriad Pro;}
+
+
+.x-cart-container .x-cart-wrapper {padding: 0.5em;background: white;}
+.x-cart-container .x-cart-header {font-family: BebasNeueBold; color: #5a5a5a; text-align: center; font-size: 2.2em; margin-bottom: 0.5em; letter-spacing: 0.02em;}
+.x-cart-container .x-cart-header span {color: #1a90da;}
+.x-cart-container .x-dataview-item {border: 1px solid #76bce9; margin-bottom: 0.5em; padding: 0.5em; position: relative;}
+.x-cart-container .x-dataview-item .image-wrapper {display: inline-block; width: 30%;}
+.x-cart-container .x-dataview-item .info-wrapper {display: inline-block; width: 70%; vertical-align: top; padding-left: 0.5em; font-family: Myriad Pro;}
+.x-cart-container .x-dataview-item .image-wrapper img {width: 100%;}
+.x-cart-container .x-dataview-item .image-wrapper .makechange {color: #5a5a5a; font-family: BebasNeue_Regular; text-decoration: underline; font-size: 0.8em;text-align: center;}
+.x-cart-container .x-dataview-item .info-wrapper .brief {color: #4b4b4b; font-size: 0.7em; }
+.x-cart-container .x-dataview-item .info-wrapper .summery-wrapper {margin-top: 0.5em;}
+.x-cart-container .x-dataview-item .info-wrapper .summery-wrapper .summery {display: inline-block; color: #1a90da; text-align: center;}
+.x-cart-container .x-dataview-item .info-wrapper .summery-wrapper .size {width: 15%;}
+.x-cart-container .x-dataview-item .info-wrapper .summery-wrapper .quantity {width: 20%;}
+.x-cart-container .x-dataview-item .info-wrapper .summery-wrapper .price {width: 35%;}
+.x-cart-container .x-dataview-item .info-wrapper .summery-wrapper .buy {width: 30%; font-family: BebasNeueBold; background-color: #1a90da; color: white; font-size: 1.5em;}
+.x-cart-container .x-dataview-item .info-wrapper .summery-wrapper .summery .heading {font-size: 0.4em;}
+.x-cart-container .x-dataview-item .info-wrapper .summery-wrapper .summery .text {font-size: 0.8em; margin-top: 0.3em;}
+.x-cart-container .x-dataview-item .action-wrapper {display: none;}
+.x-cart-container .x-dataview-item .action-wrapper {background-color: #1a90da;position: absolute;top: 0;margin-left: -0.5em;width: 100%; height: 100%;}
+.x-cart-container .x-dataview-item .action-wrapper .label-wrapper {height: 50%; display: table; width: 100%;}
+.x-cart-container .x-dataview-item .action-wrapper label {color: white; font-family: Myriad Pro; display: table-cell; font-size: 0.8em; padding-left: 1.5em; padding-right: 1.5em;}
+.x-cart-container .x-dataview-item .action-wrapper label span {font-size: 0.5em; letter-spacing: 0.1em;}
+.x-cart-container .x-dataview-item .action-wrapper .label-wrapper:first-child label {vertical-align: bottom; padding-bottom: 5px;}
+.x-cart-container .x-dataview-item .action-wrapper .label-wrapper:last-child label {vertical-align: top; padding-top: 5px;}
